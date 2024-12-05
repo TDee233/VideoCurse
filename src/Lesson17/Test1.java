@@ -1,5 +1,7 @@
 package Lesson17;
 
+
+
 public class Test1 {
     public static void main(String[] args) {
         StringBuilder sb1 = new StringBuilder();
@@ -43,6 +45,11 @@ public class Test1 {
         sb12.replace(0,4,"Pete");
         System.out.println(sb12);
         System.out.println(sb1.capacity());
+
+        String movies = "Матрица Скала Схватка Бэтман";
+        String answer = movies.replace(" ", "");
+        System.out.println(answer.length());
+
 
 
     }
