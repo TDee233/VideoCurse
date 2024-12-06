@@ -46,9 +46,9 @@ public class Test1 {
         System.out.println(sb12);
         System.out.println(sb1.capacity());
 
-        String movies = "Матрица Скала Схватка Бэтман";
-        String answer = movies.replace(" ", "");
-        System.out.println(answer.length());
+//        String movies = "Матрица Скала Схватка Бэтман";
+//        String answer = movies.replace(" ", "");
+//        System.out.println(answer.length());
 
 
 
