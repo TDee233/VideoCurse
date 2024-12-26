@@ -6,6 +6,7 @@ public class Substr1 {
         System.out.println(sb1==sb2);
         boolean areEqual = sb1.toString().compareTo(sb2.toString()) == 0;
         System.out.println(areEqual);
+        System.out.println(!areEqual);
     }
     public static void main(String[] args) {
         Substr1 tester = new Substr1();
