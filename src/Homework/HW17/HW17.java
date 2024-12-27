@@ -5,6 +5,7 @@ public class HW17 {
 
         System.out.println(sb1==sb2);
         System.out.println(sb1.equals(sb2));
+        System.out.println(!sb1.equals(sb2));
     }
     public static void main(String[] args) {
         HW17 tester = new HW17();
