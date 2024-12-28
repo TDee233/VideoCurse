@@ -17,7 +17,7 @@ public class BikeShop {
 }
 
 class Bike {
-    int id, year, price;
+    int id, year, price, km;
     String brand, engine, color;
 
     Bike(int id1, int year1, int price1, String brand1, String engine1, String color1) {
