@@ -10,5 +10,8 @@ public class HW17 {
     public static void main(String[] args) {
         HW17 tester = new HW17();
         tester.ravenstvo(new StringBuilder("qwer"), new StringBuilder("qwer"));
+
+        HW17 tester1 = new HW17();
+        tester1.ravenstvo(new StringBuilder("QWER"), new StringBuilder("qwer"));
     }
 }
