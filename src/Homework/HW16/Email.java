@@ -19,6 +19,7 @@ public class Email {
         Email spisok = new Email();
 
         spisok.email("ya@yahoo.com; on@mail.ru; ona@gmail.com");
+        spisok.email("ya1@yahoo.com; on2@mail.ru; ona3@gmail.com");
 
     }
 
