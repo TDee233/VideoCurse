@@ -9,9 +9,9 @@ public class HWshowArray {
         System.out.println(s);
     }
 
-    public static void showArny(String[][] array) {
+    public static void showArrayCustom(String[][] array) {
         System.out.print("{ ");
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             System.out.print("{");
             for (int j = 0; j < array[i].length; j++) {
                 if (j != array[i].length - 1) {
@@ -20,7 +20,7 @@ public class HWshowArray {
                     System.out.print(array[i][j]);
                 }
             }
-            if (i != array.length -1) {
+            if (i != array.length - 1) {
                 System.out.print("}, ");
             } else {
                 System.out.print("}");
@@ -30,12 +30,11 @@ public class HWshowArray {
     }
 
     public static void main(String[] args) {
-        String [][] ary = {{"odin", "dva"}, {"tri"}, {"4etire", "pyat"}};
-        String [][] array2 = {{"apple", "orange"}, {"hello", "bye", "ok"}, {"car"}};
-showArray(ary);
-showArny(ary);
-showArny(array2);
+        String[][] ary = {{"odin", "dva"}, {"tri"}, {"4etire", "pyat"}};
+        String[][] array2 = {{"apple", "orange"}, {"hello", "bye", "ok"}, {"car"}};
 
-showArray(array2);
+        showArray(ary);
+        showArrayCustom(ary);
+
     }
 }
